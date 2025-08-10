@@ -1,0 +1,220 @@
+/* Общие стили для всех страниц */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f4f7f9;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Шапка */
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #1a73e8;
+}
+
+.nav a {
+    color: #555;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1em;
+    padding-bottom: 5px;
+    transition: color 0.3s, border-bottom-color 0.3s;
+}
+
+.nav a:hover {
+    color: #1a73e8;
+}
+
+.nav a.active {
+    color: #1a73e8;
+    font-weight: bold;
+    border-bottom: 2px solid #1a73e8;
+}
+
+/* Основной контент */
+.main {
+    padding: 40px 0;
+}
+
+section {
+    margin-bottom: 50px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+h1, h2 {
+    color: #111;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #1a73e8;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.cta-button:hover {
+    background-color: #1558b3;
+    transform: translateY(-2px);
+}
+
+.small-text {
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 10px;
+}
+
+/* Шаги */
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.step {
+    text-align: center;
+}
+
+.step-number {
+    width: 50px;
+    height: 50px;
+    background-color: #e8f0fe;
+    color: #1a73e8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 auto 15px;
+}
+
+.step h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+/* Преимущества */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.feature {
+    background-color: #f4f7f9;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #1a73e8;
+}
+
+.feature p {
+    margin: 5px 0 0;
+    font-size: 0.95em;
+    color: #444;
+}
+
+/* FAQ */
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+/* Футер */
+.footer {
+    background-color: #333;
+    color: #eee;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.footer a {
+    color: #8ab4f8;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.7em;
+    }
+    .header .container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .nav {
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding-bottom: 5px;
+    }
+    .nav a {
+        margin: 0 10px;
+    }
+}
