@@ -1,7 +1,7 @@
 # YouShortsDown Bot: Универсальный Telegram-бот для скачивания видео
 
 [![Статус: Онлайн](https://img.shields.io/badge/статус-онлайн-brightgreen.svg)](https://t.me/YouShortsDown_bot)
-[![Версия: 2.1](https://img.shields.io/badge/версия-2.1-blue.svg)](https://t.me/YouShortsDown_bot)
+[![Версия: 2.1](https://img.shields.io/badge/версия-2.1-blue.svg)](https://telegrambotsai.github.io/skachat-video-youtube/index.html)
 [![Платформы: 6](https://img.shields.io/badge/платформы-6-lightgrey.svg)](https://t.me/YouShortsDown_bot)
 
 **@YouShortsDown_bot** — это мощный и простой в использовании Telegram-бот, созданный для быстрой загрузки видео и аудио с популярных платформ. Скачивайте **YouTube Shorts**, видео с **TikTok без водяного знака**, ролики из **Instagram Reels** и клипы из **VK**. Просто отправьте ссылку боту и получите готовый файл.
@@ -62,4 +62,4 @@
 
 Если вы столкнулись с ошибкой или у вас есть предложения по улучшению бота, пожалуйста, свяжитесь с нами через [официальный сайт](https://skachat-video-youtube.com).
 
-*Этот проект является независимой разработкой и не связан с YouTube, Google, TikTok, Meta или VK.*
+*[Этот проект](https://telegrambotsai.github.io/skachat-video-youtube/index.html) является независимой разработкой и не связан с YouTube, Google, TikTok, Meta или VK.*
